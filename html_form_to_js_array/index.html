@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array in JavaScript</title>
+    <style>
+    body {font-family: Arial, Helvetica, sans-serif;}
+
+    .class1{
+        margin: 0 auto;
+        width: 600px;
+    }
+    input[type=text], input[type=email] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        border-radius: 12px;
+    }
+
+    input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        border-radius: 12px;
+    }
+
+    input[type=submit]:hover {
+        opacity: 0.8;
+    }
+    </style>
+</head>
+<body>
+    <div class="class1">
+        <form id="form">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" value=""><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" value=""><br>
+            <input type="submit" value="Save">
+        </form>
+    </div>
+    <div id="users"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
